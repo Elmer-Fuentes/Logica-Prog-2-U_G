@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+.estudiante{
+    margin-left: 35px;
+    padding: 5px;
+    line-height: 1.5;
+}
+.tareas{
+    margin-left: 80px;
+    padding: 5px;
+    line-height: 2;
+    font-size: 25px;
+}
+
+.tititulo{
+    line-height: 2;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+footer{
+    text-align: center;
+.icono{
+
+     vertical-align: middle; /*alinear txt con img*/
+
+        width: 40px;
+        height: 30px;
+}
+}
+
+nav {
+    display: flex; /* Colocar los hijos directos (los div) se coloquen en fila */
+    justify-content: flex-start; /* Alinea los elementos al inicio del contenedor*/
+    align-items: center; /* Alinea verticalmente los elementos en el centro */
+    background-color: #333;
+    padding: 10px; 
+}
+.menu-item a{
+    text-decoration: none;
+        color: white; 
+}
+
+.menu-item {
+    color: white; 
+    padding: 10px 15px; 
+    text-decoration: none; /* Quita el subrayado si fueran enlaces */
+    margin-right: 20px; 
+    font-size: 1.1em; 
+    cursor: pointer; /* Indica que es un elemento interactivo */
+}
+
+.menu-item:hover {
+    background-color: aqua; /* Cambio de color al pasar el ratón */
+    color: black; /*combiar el color de la letra al pasar el mouse*/
+}
